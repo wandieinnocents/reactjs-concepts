@@ -5,7 +5,7 @@ class Welcome extends Component{
     // render
     render(){
     // return
-        return <h1>CLASS COMPONENT</h1>
+        return <h1>CLASSa  COMPONENT</h1>
     }
 }
 
