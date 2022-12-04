@@ -13,15 +13,21 @@ import React, { Component } from 'react'
     incrementCount(){
         this.setState({
             count: this.state.count+1
-        })
+        } ,
+
+        // callback
+        ()=>  {console.log('Callback values; ',this.state.count)})
 
     }
 
-    // decrement
+    // decrement count
     decrement(){
         this.setState({
             count: this.state.count-1
-        })
+        } ,
+        
+        // callback
+        ()=>{console.log(this.state.count)})
     }
 
   render() {
