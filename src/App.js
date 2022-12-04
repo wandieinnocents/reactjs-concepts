@@ -13,7 +13,7 @@ class App extends Component  {
   render(){
     return (
       <div className="App">
-        <Counter /> 
+        <Greet name="wandie" age="3"/> 
       </div>
     );
   }
