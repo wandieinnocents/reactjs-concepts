@@ -4,12 +4,16 @@ import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import React,{Component} from 'react';
+import Counter from './components/Counter';
+
 
 class App extends Component  {
+
+  
   render(){
     return (
       <div className="App">
-        <Message /> 
+        <Counter /> 
       </div>
     );
   }
